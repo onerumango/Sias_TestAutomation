@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="SecurityPolicy(failed)">
+    <classes>
+      <class name="testcases.SiasSecurityPolicyTestcase">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="runSecurityPolicy"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.SiasSecurityPolicyTestcase -->
+    </classes>
+  </test> <!-- SecurityPolicy(failed) -->
+  <test thread-count="5" name="CreateUser(failed)">
+    <classes>
+      <class name="testcases.SiasCreateModifyandAuthUserTestCase">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeBrowser"/>
+          <include name="runCreateandAuthUser"/>
+        </methods>
+      </class> <!-- testcases.SiasCreateModifyandAuthUserTestCase -->
+    </classes>
+  </test> <!-- CreateUser(failed) -->
+  <test thread-count="5" name="DeleteUser(failed)">
+    <classes>
+      <class name="testcases.SiasCreateandDeleteUserTestCase">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="runCreateandAuthUser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.SiasCreateandDeleteUserTestCase -->
+    </classes>
+  </test> <!-- DeleteUser(failed) -->
+  <test thread-count="5" name="ManualReport(failed)">
+    <classes>
+      <class name="testcases.SiasManualReportMaintenanceTestCase">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="runManualReportMaintenance"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.SiasManualReportMaintenanceTestCase -->
+    </classes>
+  </test> <!-- ManualReport(failed) -->
+  <test thread-count="5" name="ExcelUpload(failed)">
+    <classes>
+      <class name="testcases.SiasExcelUploadTestCase">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="runExcelUpload"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.SiasExcelUploadTestCase -->
+    </classes>
+  </test> <!-- ExcelUpload(failed) -->
+  <test thread-count="5" name="Maintenance(failed)">
+    <classes>
+      <class name="testcases.SiasCreateandAuthMaintenanceTestCase">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeBrowser"/>
+          <include name="runCreateMaintenancePage"/>
+        </methods>
+      </class> <!-- testcases.SiasCreateandAuthMaintenanceTestCase -->
+    </classes>
+  </test> <!-- Maintenance(failed) -->
+</suite> <!-- Failed suite [Suite] -->

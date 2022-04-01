@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testcases.SiasReportConfigurationTestCase" />
+			<class name="testcases.SiasReportmappingTestcase" />
+			<class name="testcases.CommonParamTestcase" />
+			<class name="testcases.SecurityPolicyTestcase" />
+			<class name="testcases.TemporaryTestcase" />
+			<class name="testcases.StagingTestcase" />
+			<class name="testcases.MasterTestcase" />
+			<class name="testcases.SiasCreateModifyandAuthUserTestCase" />
+			<class name="testcases.SiasCreateViewAuthRoleTestCase" />
+			<class name="testcases.SiasMappingNonOracleTestCase" />
+			<class name="testcases.SiasExternalSystemRefreshTestCase" />
+			<class name="testcases.SiasManualReportMaintenanceTestCase" />
+			<class name="testcases.SiasSectionMaintenanceTestCase" />
+			<class name="testcases.SiasExcelMappingTestCase" />
+			<class name="testcases.SiasExcelUploadTestCase" />
+			<class name="testcases.SiasExcelProcessingSummaryTestCase" />
+			<class name="testcases.SiasWorkFlowTestCase" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

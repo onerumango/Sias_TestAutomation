@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="CommonParams">
+		<classes>
+			<class name="testcases.SiasCommonParamTestcase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ReportConfig">
+		<classes>
+			<class name="testcases.SiasReportConfigurationTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ReportMapping">
+		<classes>
+			<class name="testcases.SiasReportmappingTestcase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="SecurityPolicy">
+		<classes>
+			<class name="testcases.SiasSecurityPolicyTestcase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Temporary">
+		<classes>
+			<class name="testcases.SiasTemporaryTestcase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Staging">
+		<classes>
+			<class name="testcases.SiasStagingTestcase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Master">
+		<classes>
+			<class name="testcases.SiasMasterTestcase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ExceptionDetails">
+		<classes>
+			<class name="testcases.SiasExceptionDetailsTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="CreateRole">
+		<classes>
+			<class name="testcases.SiasCreateViewModifyAuthRoleTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="DeleteRole">
+		<classes>
+			<class name="testcases.SiasDeleteRoleTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="CreateUser">
+		<classes>
+			<class name="testcases.SiasCreateModifyandAuthUserTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="DeleteUser">
+		<classes>
+			<class name="testcases.SiasCreateandDeleteUserTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ManualReport">
+		<classes>
+			<class name="testcases.SiasManualReportMaintenanceTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="SectionMaint">
+		<classes>
+			<class name="testcases.SiasSectionMaintenanceTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ExcelMapping">
+		<classes>
+			<class name="testcases.SiasExcelMappingTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ExcelUpload">
+		<classes>
+			<class name="testcases.SiasExcelUploadTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ExcelProcessing">
+		<classes>
+			<class name="testcases.SiasExcelProcessingSummaryTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Maintenance">
+		<classes>
+			<class name="testcases.SiasCreateandAuthMaintenanceTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="MappingNonOracle">
+		<classes>
+			<class name="testcases.SiasMappingNonOracleTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Refresh">
+		<classes>
+			<class name="testcases.SiasExternalSystemRefreshTestCase" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Workflow">
+		<classes>
+			<class name="testcases.SiasWorkFlowTestCase" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

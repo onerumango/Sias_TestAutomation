@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="21" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2521533" started-at="2021-07-29T21:40:57 IST" finished-at="2021-07-29T22:22:58 IST">
+    <groups>
+    </groups>
+    <test name="CommonParams" duration-ms="112146" started-at="2021-07-29T21:40:57 IST" finished-at="2021-07-29T21:42:49 IST">
+      <class name="testcases.SiasCommonParamTestcase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasCommonParamTestcase@5204062d]" name="launchApplication" is-config="true" duration-ms="50323" started-at="2021-07-29T21:40:57 IST" finished-at="2021-07-29T21:41:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runCommonParameters()[pri:0, instance:testcases.SiasCommonParamTestcase@5204062d]" name="runCommonParameters" duration-ms="61226" started-at="2021-07-29T21:41:47 IST" finished-at="2021-07-29T21:42:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCommonParameters -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasCommonParamTestcase@5204062d]" name="closeBrowser" is-config="true" duration-ms="469" started-at="2021-07-29T21:42:49 IST" finished-at="2021-07-29T21:42:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasCommonParamTestcase -->
+    </test> <!-- CommonParams -->
+    <test name="ReportConfig" duration-ms="107044" started-at="2021-07-29T21:42:49 IST" finished-at="2021-07-29T21:44:36 IST">
+      <class name="testcases.SiasReportConfigurationTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasReportConfigurationTestCase@aecb35a]" name="launchApplication" is-config="true" duration-ms="28506" started-at="2021-07-29T21:42:49 IST" finished-at="2021-07-29T21:43:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runReportConfiguration()[pri:0, instance:testcases.SiasReportConfigurationTestCase@aecb35a]" name="runReportConfiguration" duration-ms="78149" started-at="2021-07-29T21:43:18 IST" finished-at="2021-07-29T21:44:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runReportConfiguration -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasReportConfigurationTestCase@aecb35a]" name="closeBrowser" is-config="true" duration-ms="288" started-at="2021-07-29T21:44:36 IST" finished-at="2021-07-29T21:44:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasReportConfigurationTestCase -->
+    </test> <!-- ReportConfig -->
+    <test name="ReportMapping" duration-ms="172484" started-at="2021-07-29T21:44:36 IST" finished-at="2021-07-29T21:47:29 IST">
+      <class name="testcases.SiasReportmappingTestcase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasReportmappingTestcase@5427c60c]" name="launchApplication" is-config="true" duration-ms="25173" started-at="2021-07-29T21:44:37 IST" finished-at="2021-07-29T21:45:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runReportMapping()[pri:0, instance:testcases.SiasReportmappingTestcase@5427c60c]" name="runReportMapping" duration-ms="147042" started-at="2021-07-29T21:45:02 IST" finished-at="2021-07-29T21:47:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runReportMapping -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasReportmappingTestcase@5427c60c]" name="closeBrowser" is-config="true" duration-ms="232" started-at="2021-07-29T21:47:29 IST" finished-at="2021-07-29T21:47:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasReportmappingTestcase -->
+    </test> <!-- ReportMapping -->
+    <test name="SecurityPolicy" duration-ms="120220" started-at="2021-07-29T21:47:29 IST" finished-at="2021-07-29T21:49:29 IST">
+      <class name="testcases.SiasSecurityPolicyTestcase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasSecurityPolicyTestcase@43d7741f]" name="launchApplication" is-config="true" duration-ms="25939" started-at="2021-07-29T21:47:29 IST" finished-at="2021-07-29T21:47:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="FAIL" signature="runSecurityPolicy()[pri:0, instance:testcases.SiasSecurityPolicyTestcase@43d7741f]" name="runSecurityPolicy" duration-ms="93860" started-at="2021-07-29T21:47:55 IST" finished-at="2021-07-29T21:49:29 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign out']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23727a5dabb6b86811b3dccb04d178c2
+*** Element info: {Using=xpath, value=//span[text()='Sign out']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign out']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23727a5dabb6b86811b3dccb04d178c2
+*** Element info: {Using=xpath, value=//span[text()='Sign out']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+at base.GenericWrapper.locateElement(GenericWrapper.java:56)
+at pages.SiasLogoutPage.clickSignOut(SiasLogoutPage.java:18)
+at testcases.SiasSecurityPolicyTestcase.runSecurityPolicy(SiasSecurityPolicyTestcase.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSecurityPolicy -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasSecurityPolicyTestcase@43d7741f]" name="closeBrowser" is-config="true" duration-ms="342" started-at="2021-07-29T21:49:29 IST" finished-at="2021-07-29T21:49:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasSecurityPolicyTestcase -->
+    </test> <!-- SecurityPolicy -->
+    <test name="Temporary" duration-ms="51805" started-at="2021-07-29T21:49:30 IST" finished-at="2021-07-29T21:50:21 IST">
+      <class name="testcases.SiasTemporaryTestcase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasTemporaryTestcase@4f51b3e0]" name="launchApplication" is-config="true" duration-ms="24639" started-at="2021-07-29T21:49:30 IST" finished-at="2021-07-29T21:49:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runTemporary()[pri:0, instance:testcases.SiasTemporaryTestcase@4f51b3e0]" name="runTemporary" duration-ms="26872" started-at="2021-07-29T21:49:54 IST" finished-at="2021-07-29T21:50:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTemporary -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasTemporaryTestcase@4f51b3e0]" name="closeBrowser" is-config="true" duration-ms="272" started-at="2021-07-29T21:50:21 IST" finished-at="2021-07-29T21:50:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasTemporaryTestcase -->
+    </test> <!-- Temporary -->
+    <test name="Staging" duration-ms="50709" started-at="2021-07-29T21:50:21 IST" finished-at="2021-07-29T21:51:12 IST">
+      <class name="testcases.SiasStagingTestcase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasStagingTestcase@5e955596]" name="launchApplication" is-config="true" duration-ms="24854" started-at="2021-07-29T21:50:21 IST" finished-at="2021-07-29T21:50:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runStaging()[pri:0, instance:testcases.SiasStagingTestcase@5e955596]" name="runStaging" duration-ms="25683" started-at="2021-07-29T21:50:46 IST" finished-at="2021-07-29T21:51:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runStaging -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasStagingTestcase@5e955596]" name="closeBrowser" is-config="true" duration-ms="143" started-at="2021-07-29T21:51:12 IST" finished-at="2021-07-29T21:51:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasStagingTestcase -->
+    </test> <!-- Staging -->
+    <test name="Master" duration-ms="54852" started-at="2021-07-29T21:51:12 IST" finished-at="2021-07-29T21:52:07 IST">
+      <class name="testcases.SiasMasterTestcase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasMasterTestcase@17695df3]" name="launchApplication" is-config="true" duration-ms="23519" started-at="2021-07-29T21:51:12 IST" finished-at="2021-07-29T21:51:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runMaster()[pri:0, instance:testcases.SiasMasterTestcase@17695df3]" name="runMaster" duration-ms="27098" started-at="2021-07-29T21:51:36 IST" finished-at="2021-07-29T21:52:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runMaster -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasMasterTestcase@17695df3]" name="closeBrowser" is-config="true" duration-ms="4210" started-at="2021-07-29T21:52:03 IST" finished-at="2021-07-29T21:52:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasMasterTestcase -->
+    </test> <!-- Master -->
+    <test name="ExceptionDetails" duration-ms="76144" started-at="2021-07-29T21:52:07 IST" finished-at="2021-07-29T21:53:23 IST">
+      <class name="testcases.SiasExceptionDetailsTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasExceptionDetailsTestCase@3bd94634]" name="launchApplication" is-config="true" duration-ms="26034" started-at="2021-07-29T21:52:07 IST" finished-at="2021-07-29T21:52:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runExceptionDetails()[pri:0, instance:testcases.SiasExceptionDetailsTestCase@3bd94634]" name="runExceptionDetails" duration-ms="49821" started-at="2021-07-29T21:52:33 IST" finished-at="2021-07-29T21:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runExceptionDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasExceptionDetailsTestCase@3bd94634]" name="closeBrowser" is-config="true" duration-ms="266" started-at="2021-07-29T21:53:23 IST" finished-at="2021-07-29T21:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasExceptionDetailsTestCase -->
+    </test> <!-- ExceptionDetails -->
+    <test name="CreateRole" duration-ms="173462" started-at="2021-07-29T21:53:24 IST" finished-at="2021-07-29T21:56:17 IST">
+      <class name="testcases.SiasCreateViewModifyAuthRoleTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasCreateViewModifyAuthRoleTestCase@166fa74d]" name="launchApplication" is-config="true" duration-ms="40602" started-at="2021-07-29T21:53:24 IST" finished-at="2021-07-29T21:54:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runCreateRole()[pri:0, instance:testcases.SiasCreateViewModifyAuthRoleTestCase@166fa74d]" name="runCreateRole" duration-ms="132611" started-at="2021-07-29T21:54:04 IST" finished-at="2021-07-29T21:56:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateRole -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasCreateViewModifyAuthRoleTestCase@166fa74d]" name="closeBrowser" is-config="true" duration-ms="234" started-at="2021-07-29T21:56:17 IST" finished-at="2021-07-29T21:56:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasCreateViewModifyAuthRoleTestCase -->
+    </test> <!-- CreateRole -->
+    <test name="DeleteRole" duration-ms="129555" started-at="2021-07-29T21:56:17 IST" finished-at="2021-07-29T21:58:27 IST">
+      <class name="testcases.SiasDeleteRoleTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasDeleteRoleTestCase@6e2c9341]" name="launchApplication" is-config="true" duration-ms="25931" started-at="2021-07-29T21:56:17 IST" finished-at="2021-07-29T21:56:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runDeleteRole()[pri:0, instance:testcases.SiasDeleteRoleTestCase@6e2c9341]" name="runDeleteRole" duration-ms="103315" started-at="2021-07-29T21:56:43 IST" finished-at="2021-07-29T21:58:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteRole -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasDeleteRoleTestCase@6e2c9341]" name="closeBrowser" is-config="true" duration-ms="290" started-at="2021-07-29T21:58:26 IST" finished-at="2021-07-29T21:58:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasDeleteRoleTestCase -->
+    </test> <!-- DeleteRole -->
+    <test name="CreateUser" duration-ms="49259" started-at="2021-07-29T21:58:27 IST" finished-at="2021-07-29T21:59:16 IST">
+      <class name="testcases.SiasCreateModifyandAuthUserTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasCreateModifyandAuthUserTestCase@6cc7b4de]" name="launchApplication" is-config="true" duration-ms="28389" started-at="2021-07-29T21:58:27 IST" finished-at="2021-07-29T21:58:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="FAIL" signature="runCreateandAuthUser()[pri:0, instance:testcases.SiasCreateModifyandAuthUserTestCase@6cc7b4de]" name="runCreateandAuthUser" duration-ms="20586" started-at="2021-07-29T21:58:55 IST" finished-at="2021-07-29T21:59:16 IST">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //input[@name='brnCode' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@name='brnCode'' is not a valid XPath expression.
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81d1e3a16e9972cef970c212a5209b9c
+*** Element info: {Using=xpath, value=//input[@name='brnCode'}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@name='brnCode' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@name='brnCode'' is not a valid XPath expression.
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81d1e3a16e9972cef970c212a5209b9c
+*** Element info: {Using=xpath, value=//input[@name='brnCode'}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+at base.GenericWrapper.locateElement(GenericWrapper.java:56)
+at pages.SiasCreateUserPage.selectBranch(SiasCreateUserPage.java:32)
+at testcases.SiasCreateModifyandAuthUserTestCase.runCreateandAuthUser(SiasCreateModifyandAuthUserTestCase.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateandAuthUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasCreateModifyandAuthUserTestCase@6cc7b4de]" name="closeBrowser" is-config="true" duration-ms="264" started-at="2021-07-29T21:59:16 IST" finished-at="2021-07-29T21:59:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasCreateModifyandAuthUserTestCase -->
+    </test> <!-- CreateUser -->
+    <test name="DeleteUser" duration-ms="184158" started-at="2021-07-29T21:59:16 IST" finished-at="2021-07-29T22:02:20 IST">
+      <class name="testcases.SiasCreateandDeleteUserTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasCreateandDeleteUserTestCase@290dbf45]" name="launchApplication" is-config="true" duration-ms="41801" started-at="2021-07-29T21:59:16 IST" finished-at="2021-07-29T21:59:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="FAIL" signature="runCreateandAuthUser()[pri:0, instance:testcases.SiasCreateandDeleteUserTestCase@290dbf45]" name="runCreateandAuthUser" duration-ms="82249" started-at="2021-07-29T21:59:58 IST" finished-at="2021-07-29T22:01:20 IST">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a04e113ca47b6e7fdf68410dec270d0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a04e113ca47b6e7fdf68410dec270d0
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:603)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+at base.GenericWrapper.locateElement(GenericWrapper.java:56)
+at pages.SiasDeleteUserCreationPage.enterDeleteMobileNo(SiasDeleteUserCreationPage.java:41)
+at testcases.SiasCreateandDeleteUserTestCase.runCreateandAuthUser(SiasCreateandDeleteUserTestCase.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:55)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+... 33 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:14394 after 60000 ms
+at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+at java.util.concurrent.CompletableFuture.get(Unknown Source)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+... 42 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:14394 after 60000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateandAuthUser -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:testcases.SiasCreateandDeleteUserTestCase@290dbf45]" name="closeBrowser" is-config="true" duration-ms="60089" started-at="2021-07-29T22:01:20 IST" finished-at="2021-07-29T22:02:20 IST">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a04e113ca47b6e7fdf68410dec270d0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a04e113ca47b6e7fdf68410dec270d0
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:603)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:639)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:468)
+at base.SiasProjectSpecificMethods.closeBrowser(SiasProjectSpecificMethods.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:55)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+... 37 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:14394 after 60000 ms
+at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+at java.util.concurrent.CompletableFuture.get(Unknown Source)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+... 46 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:14394 after 60000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasCreateandDeleteUserTestCase -->
+    </test> <!-- DeleteUser -->
+    <test name="ManualReport" duration-ms="149534" started-at="2021-07-29T22:02:20 IST" finished-at="2021-07-29T22:04:50 IST">
+      <class name="testcases.SiasManualReportMaintenanceTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasManualReportMaintenanceTestCase@4e41089d]" name="launchApplication" is-config="true" duration-ms="28622" started-at="2021-07-29T22:02:20 IST" finished-at="2021-07-29T22:02:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="FAIL" signature="runManualReportMaintenance()[pri:0, instance:testcases.SiasManualReportMaintenanceTestCase@4e41089d]" name="runManualReportMaintenance" duration-ms="116645" started-at="2021-07-29T22:02:49 IST" finished-at="2021-07-29T22:04:46 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='OK']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55911}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0e338c91cea087170da7552dce3bea7
+*** Element info: {Using=xpath, value=//span[text()='OK']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='OK']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55911}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0e338c91cea087170da7552dce3bea7
+*** Element info: {Using=xpath, value=//span[text()='OK']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+at base.GenericWrapper.locateElement(GenericWrapper.java:56)
+at pages.SiasLogoutPage.clickSignOut(SiasLogoutPage.java:19)
+at testcases.SiasManualReportMaintenanceTestCase.runManualReportMaintenance(SiasManualReportMaintenanceTestCase.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runManualReportMaintenance -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasManualReportMaintenanceTestCase@4e41089d]" name="closeBrowser" is-config="true" duration-ms="4234" started-at="2021-07-29T22:04:46 IST" finished-at="2021-07-29T22:04:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasManualReportMaintenanceTestCase -->
+    </test> <!-- ManualReport -->
+    <test name="SectionMaint" duration-ms="113266" started-at="2021-07-29T22:04:50 IST" finished-at="2021-07-29T22:06:43 IST">
+      <class name="testcases.SiasSectionMaintenanceTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasSectionMaintenanceTestCase@71a794e5]" name="launchApplication" is-config="true" duration-ms="25060" started-at="2021-07-29T22:04:50 IST" finished-at="2021-07-29T22:05:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runSectionMaintenance()[pri:0, instance:testcases.SiasSectionMaintenanceTestCase@71a794e5]" name="runSectionMaintenance" duration-ms="87859" started-at="2021-07-29T22:05:15 IST" finished-at="2021-07-29T22:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSectionMaintenance -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasSectionMaintenanceTestCase@71a794e5]" name="closeBrowser" is-config="true" duration-ms="338" started-at="2021-07-29T22:06:43 IST" finished-at="2021-07-29T22:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasSectionMaintenanceTestCase -->
+    </test> <!-- SectionMaint -->
+    <test name="ExcelMapping" duration-ms="174456" started-at="2021-07-29T22:06:43 IST" finished-at="2021-07-29T22:09:38 IST">
+      <class name="testcases.SiasExcelMappingTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasExcelMappingTestCase@31206beb]" name="launchApplication" is-config="true" duration-ms="45998" started-at="2021-07-29T22:06:43 IST" finished-at="2021-07-29T22:07:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runExcelMapping()[pri:0, instance:testcases.SiasExcelMappingTestCase@31206beb]" name="runExcelMapping" duration-ms="128141" started-at="2021-07-29T22:07:29 IST" finished-at="2021-07-29T22:09:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runExcelMapping -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasExcelMappingTestCase@31206beb]" name="closeBrowser" is-config="true" duration-ms="310" started-at="2021-07-29T22:09:38 IST" finished-at="2021-07-29T22:09:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasExcelMappingTestCase -->
+    </test> <!-- ExcelMapping -->
+    <test name="ExcelUpload" duration-ms="184104" started-at="2021-07-29T22:09:38 IST" finished-at="2021-07-29T22:12:42 IST">
+      <class name="testcases.SiasExcelUploadTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasExcelUploadTestCase@1372ed45]" name="launchApplication" is-config="true" duration-ms="24957" started-at="2021-07-29T22:09:38 IST" finished-at="2021-07-29T22:10:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="FAIL" signature="runExcelUpload()[pri:0, instance:testcases.SiasExcelUploadTestCase@1372ed45]" name="runExcelUpload" duration-ms="133620" started-at="2021-07-29T22:10:03 IST" finished-at="2021-07-29T22:12:16 IST">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 44b2b9ef8ad31bb9fa329912a826146c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 44b2b9ef8ad31bb9fa329912a826146c
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:603)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+at base.GenericWrapper.locateElement(GenericWrapper.java:56)
+at pages.SiasLogoutPage.clickSignOut(SiasLogoutPage.java:18)
+at testcases.SiasExcelUploadTestCase.runExcelUpload(SiasExcelUploadTestCase.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:55)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+... 33 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:42697 after 60000 ms
+at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+at java.util.concurrent.CompletableFuture.get(Unknown Source)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+... 42 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:42697 after 60000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runExcelUpload -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasExcelUploadTestCase@1372ed45]" name="closeBrowser" is-config="true" duration-ms="25512" started-at="2021-07-29T22:12:16 IST" finished-at="2021-07-29T22:12:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasExcelUploadTestCase -->
+    </test> <!-- ExcelUpload -->
+    <test name="ExcelProcessing" duration-ms="109001" started-at="2021-07-29T22:12:42 IST" finished-at="2021-07-29T22:14:31 IST">
+      <class name="testcases.SiasExcelProcessingSummaryTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasExcelProcessingSummaryTestCase@6c3f5566]" name="launchApplication" is-config="true" duration-ms="30711" started-at="2021-07-29T22:12:42 IST" finished-at="2021-07-29T22:13:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runExcelProcessingSummary()[pri:0, instance:testcases.SiasExcelProcessingSummaryTestCase@6c3f5566]" name="runExcelProcessingSummary" duration-ms="74078" started-at="2021-07-29T22:13:13 IST" finished-at="2021-07-29T22:14:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runExcelProcessingSummary -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasExcelProcessingSummaryTestCase@6c3f5566]" name="closeBrowser" is-config="true" duration-ms="4207" started-at="2021-07-29T22:14:27 IST" finished-at="2021-07-29T22:14:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasExcelProcessingSummaryTestCase -->
+    </test> <!-- ExcelProcessing -->
+    <test name="Maintenance" duration-ms="95915" started-at="2021-07-29T22:14:31 IST" finished-at="2021-07-29T22:16:07 IST">
+      <class name="testcases.SiasCreateandAuthMaintenanceTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasCreateandAuthMaintenanceTestCase@442675e1]" name="launchApplication" is-config="true" duration-ms="25402" started-at="2021-07-29T22:14:31 IST" finished-at="2021-07-29T22:14:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="FAIL" signature="runCreateMaintenancePage()[pri:0, instance:testcases.SiasCreateandAuthMaintenanceTestCase@442675e1]" name="runCreateMaintenancePage" duration-ms="70205" started-at="2021-07-29T22:14:57 IST" finished-at="2021-07-29T22:16:07 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Maintenance']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc508d3f0a0544fe5cf91aa6a281305c
+*** Element info: {Using=xpath, value=//span[text()='Maintenance']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Maintenance']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'NPR1002', ip: '10.10.10.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\NPR1002\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc508d3f0a0544fe5cf91aa6a281305c
+*** Element info: {Using=xpath, value=//span[text()='Maintenance']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+at base.GenericWrapper.locateElement(GenericWrapper.java:56)
+at pages.SiasDashboardPage.clickMaintenanceLink(SiasDashboardPage.java:21)
+at testcases.SiasCreateandAuthMaintenanceTestCase.runCreateMaintenancePage(SiasCreateandAuthMaintenanceTestCase.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateMaintenancePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasCreateandAuthMaintenanceTestCase@442675e1]" name="closeBrowser" is-config="true" duration-ms="297" started-at="2021-07-29T22:16:07 IST" finished-at="2021-07-29T22:16:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasCreateandAuthMaintenanceTestCase -->
+    </test> <!-- Maintenance -->
+    <test name="MappingNonOracle" duration-ms="88014" started-at="2021-07-29T22:16:07 IST" finished-at="2021-07-29T22:17:35 IST">
+      <class name="testcases.SiasMappingNonOracleTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasMappingNonOracleTestCase@64d7f7e0]" name="launchApplication" is-config="true" duration-ms="24915" started-at="2021-07-29T22:16:07 IST" finished-at="2021-07-29T22:16:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runMappingNonOracle()[pri:0, instance:testcases.SiasMappingNonOracleTestCase@64d7f7e0]" name="runMappingNonOracle" duration-ms="58899" started-at="2021-07-29T22:16:32 IST" finished-at="2021-07-29T22:17:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runMappingNonOracle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasMappingNonOracleTestCase@64d7f7e0]" name="closeBrowser" is-config="true" duration-ms="4191" started-at="2021-07-29T22:17:31 IST" finished-at="2021-07-29T22:17:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasMappingNonOracleTestCase -->
+    </test> <!-- MappingNonOracle -->
+    <test name="Refresh" duration-ms="73679" started-at="2021-07-29T22:17:35 IST" finished-at="2021-07-29T22:18:49 IST">
+      <class name="testcases.SiasExternalSystemRefreshTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasExternalSystemRefreshTestCase@1e9e725a]" name="launchApplication" is-config="true" duration-ms="24857" started-at="2021-07-29T22:17:35 IST" finished-at="2021-07-29T22:18:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runExternalSystemRefresh()[pri:0, instance:testcases.SiasExternalSystemRefreshTestCase@1e9e725a]" name="runExternalSystemRefresh" duration-ms="48608" started-at="2021-07-29T22:18:00 IST" finished-at="2021-07-29T22:18:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runExternalSystemRefresh -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasExternalSystemRefreshTestCase@1e9e725a]" name="closeBrowser" is-config="true" duration-ms="202" started-at="2021-07-29T22:18:49 IST" finished-at="2021-07-29T22:18:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasExternalSystemRefreshTestCase -->
+    </test> <!-- Refresh -->
+    <test name="Workflow" duration-ms="249525" started-at="2021-07-29T22:18:49 IST" finished-at="2021-07-29T22:22:58 IST">
+      <class name="testcases.SiasWorkFlowTestCase">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.SiasWorkFlowTestCase@19dc67c2]" name="launchApplication" is-config="true" duration-ms="25551" started-at="2021-07-29T22:18:49 IST" finished-at="2021-07-29T22:19:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runWorkflow()[pri:0, instance:testcases.SiasWorkFlowTestCase@19dc67c2]" name="runWorkflow" duration-ms="223668" started-at="2021-07-29T22:19:14 IST" finished-at="2021-07-29T22:22:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runWorkflow -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SiasWorkFlowTestCase@19dc67c2]" name="closeBrowser" is-config="true" duration-ms="303" started-at="2021-07-29T22:22:58 IST" finished-at="2021-07-29T22:22:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SiasWorkFlowTestCase -->
+    </test> <!-- Workflow -->
+  </suite> <!-- Suite -->
+</testng-results>
