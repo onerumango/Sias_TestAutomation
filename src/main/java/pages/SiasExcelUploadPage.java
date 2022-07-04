@@ -46,7 +46,7 @@ public class SiasExcelUploadPage extends SiasProjectSpecificMethods {
 		wait(3000);
 		FileInputStream fis = new FileInputStream(props.getProperty("SiasExcelUploadPage.DownloadPath"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-		XSSFSheet sheet = workbook.getSheet(props.getProperty(props.getProperty("SiasExcelUploadPage.SectionName")));
+		XSSFSheet sheet = workbook.getSheetAt(0);
 		Row row = sheet.createRow(1);
 		Cell cell = row.createCell(0);
 		cell.setCellValue(props.getProperty("SiasExcelUploadPage.AccountName1"));

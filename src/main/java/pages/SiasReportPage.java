@@ -10,7 +10,7 @@ import base.SiasProjectSpecificMethods;
 public class SiasReportPage extends SiasProjectSpecificMethods{
 
 	public SiasReportPage selectBusinessDate() {
-		enterValue(locateElement("xpath", props.getProperty("SiasReportPage.BusinessDate.XPath")), "10/31/2019");
+		enterValue(locateElement("xpath", props.getProperty("SiasReportPage.BusinessDate.XPath")), "1/28/2022");
 		return this;
 		}
 	
