@@ -265,4 +265,20 @@ public class SiasDashboardPage extends SiasProjectSpecificMethods {
 		webDriverWait("External Systems > Refresh | Sias2 App");
 		return new SiasExternalSystemRefreshPage();
 	}
+	
+	public SiasDashboardPage clickDepartmentmanagementLink() {
+		clickElement(locateElement("xpath", props.getProperty("SiasDashboardPage.DepartmentManagementLink.XPath")));
+		return this;
+	}
+	public  SiasDepartmentmanagementcreatemodifyauthpage  clickcreateDepartmentmanagement() {
+		clickElement(locateElement("xpath", props.getProperty("SiasDashboardPage.createDepartmentManagementLink.XPath")));
+		webDriverWait("Admin > Create Department | Sias2 App");
+		return new SiasDepartmentmanagementcreatemodifyauthpage();
+	}
+	
+	public  SiasAuthDepartmentmanagement clickviewDepartmentmanagement() {
+		clickElement(locateElement("xpath", props.getProperty("SiasDashboardPage.viewDepartmentManagementLink.XPath")));
+		webDriverWait("Admin > View Department | Sias2 App");
+		return new SiasAuthDepartmentmanagement();
+	}
 }
