@@ -35,18 +35,21 @@ public class SiasCreateUserPage extends SiasProjectSpecificMethods{
 		wait(4000);
 		clickElement(locateElement("xpath", props.getProperty("SiasCreateUserPage.BranchDropDown.XPath")));
 		clickElement(locateElement("xpath", props.getProperty("SiasCreateUserPage.Branch.XPath")));
+		wait(2000);
 		return this;
 	}
 	
 	public SiasCreateUserPage selectCountry() {
 		clickElement(locateElement("xpath", props.getProperty("SiasCreateUserPage.CountryDropDown.XPath")));
 		clickElement(locateElement("xpath", props.getProperty("SiasCreateUserPage.Country.XPath")));
+		wait(2000);
 		return this;
 	}
 	
 	public SiasCreateUserPage enterMobileNo() {
 		wait(4000);
-		enterValue(locateElement("id", props.getProperty("SiasCreateUserPage.MobileNo.Id")), props.getProperty("SiasCreateUserPage.MobileNo"));
+		//enterValue(locateElement("xpath", props.getProperty("SiasCreateUserPage.MobileNo.XPath")), props.getProperty(""));
+		driver.findElementById("mobileNo").sendKeys("9901202");
 		return this;
 		
 	}

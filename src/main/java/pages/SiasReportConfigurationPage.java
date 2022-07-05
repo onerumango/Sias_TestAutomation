@@ -27,6 +27,36 @@ public class SiasReportConfigurationPage extends SiasProjectSpecificMethods{
 		clickElement(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.Amendable.XPath")));
 		return this;
 	}
+	
+	public SiasReportConfigurationPage enterReportLevel() {
+		enterValue(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.ReportLevel.XPath")), "1");
+		return this;
+	}
+
+public SiasReportConfigurationPage selectReportEdit() {
+		clickElement(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.SelectReportedit.XPath")));
+		clickElement(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.YesType.XPath")));
+		return this;
+	}
+
+public SiasReportConfigurationPage selectfileType() {
+		clickElement(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.SelectfileType.XPath")));
+		clickElement(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.xlsxType.XPath")));
+		return this;
+	}
+
+public SiasReportConfigurationPage selectcrossrole() {
+		clickElement(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.Selectcrossrole.XPath")));
+		clickElement(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.yesrole.XPath")));
+		return this;
+	}
+
+public SiasReportConfigurationPage selectRoleid() {
+		clickElement(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.SelectRoleid.XPath")));
+		clickElement(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.role1.XPath")));
+		return this;
+	}
+
 
 	public SiasReportConfigurationPage clickAddReportButton() {
 		clickElement(locateElement("xpath", props.getProperty("SiasReportConfigurationPage.AddReportButton.XPath")));

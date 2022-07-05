@@ -6,16 +6,16 @@ public class SiasNewManualReportMaintenancePage extends SiasProjectSpecificMetho
 
 	public SiasNewManualReportMaintenancePage selectReportCode() throws InterruptedException {
 		clickElement(locateElement("xpath", props.getProperty("SiasNewManualReportMaintenancePage.SelectReportCode.XPath")));
-		wait(2000);
-		clickElement(locateElement("xpath", props.getProperty("SiasNewManualReportMaintenancePage.ReportCode.XPath")));
-		wait(2000);
+		wait(5000);
+		clickElement(locateElement("xpath", props.getProperty("SiasManualReportMaintenancePage.ReportCodeLink.XPath")));
+		wait(4000);
 		return this;
 
 	}
 	
 	public SiasNewManualReportMaintenancePage clickSubmitButton() throws InterruptedException {
 		clickElement(locateElement("xpath", props.getProperty("SiasNewManualReportMaintenancePage.SubmitButton.XPath")));
-		wait(7000);
+		wait(9000);
 		return this;
 
 	}

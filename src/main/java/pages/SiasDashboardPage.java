@@ -61,14 +61,14 @@ public class SiasDashboardPage extends SiasProjectSpecificMethods {
 
 	public SiasManualReportMaintenancePage clickManualReportMaintenanceLink() throws InterruptedException {
 		clickElement(locateElement("xpath", props.getProperty("SiasDashboardPage.ManualReportMaintenanceLink.XPath")));
-		wait(5000);
+		wait(40000);
 		webDriverWait("Sias V2 > External System Summary | Sias2 App");
 		return new SiasManualReportMaintenancePage();
 	}
 
 	public SiasSectionMaintenancePage clickSectionMaintenanceLink() throws InterruptedException {
 		clickElement(locateElement("xpath", props.getProperty("SiasDashboardPage.SectionMaintenanceLink.XPath")));
-		wait(5000);
+		wait(80000);
 		webDriverWait("Sias V2 > Process Code Mapping Summary | Sias2 App");
 		return new SiasSectionMaintenancePage();
 	}

@@ -15,11 +15,10 @@ public class SiasManualReportMaintenancePage extends SiasProjectSpecificMethods{
 		enterValue(locateElement("xpath", props.getProperty("SiasManualReportMaintenancePage.FilterKey.XPath")), props.getProperty("SiasManualReportMaintenancePage.FilterKey"));
 		wait(4000);
 		return this;
-
 	}
 	
 	public SiasUpdateManualMaintenanceReportPage clickReportCodeLink() throws InterruptedException {
-		clickElement(locateElement("xpath", props.getProperty("SiasManualReportMaintenancePage.ReportCodeLink.XPath")));
+		clickElement(locateElement("linktext", props.getProperty("SiasManualReportMaintenancePage.ReportCodeLink.Linktext")));
 		wait(2000);
 		return new SiasUpdateManualMaintenanceReportPage();
 

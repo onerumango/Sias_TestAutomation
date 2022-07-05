@@ -43,7 +43,7 @@ public class SiasExcelUploadPage extends SiasProjectSpecificMethods {
 	
 	public SiasExcelUploadPage clickExcelUploadDownloadTemplateButton() throws InterruptedException, IOException {
 		clickElement(locateElement("xpath", props.getProperty("SiasExcelUploadPage.ExcelUploadDownloadTemplateButton.XPath")));
-		wait(3000);
+		wait(4000);
 		FileInputStream fis = new FileInputStream(props.getProperty("SiasExcelUploadPage.DownloadPath"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		XSSFSheet sheet = workbook.getSheetAt(0);

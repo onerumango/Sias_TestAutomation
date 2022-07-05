@@ -10,7 +10,7 @@ public class SiasSectionMaintenancePage extends SiasProjectSpecificMethods{
 	}
 	
 	public SiasSectionMaintenancePage enterSectionFilterCode() throws InterruptedException {
-		enterValue(locateElement("xpath", props.getProperty("SiasNewSectionMaintenancePage.SectionFilterCode.XPath")), "ACCOUNTASSET60");
+		enterValue(locateElement("xpath", props.getProperty("SiasNewSectionMaintenancePage.SectionFilterCode.XPath")), "ACCOUNTASSET61");
 		wait(3000);
 		return this;
 	}

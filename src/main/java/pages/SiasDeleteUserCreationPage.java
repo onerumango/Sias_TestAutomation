@@ -44,7 +44,7 @@ public class SiasDeleteUserCreationPage extends SiasProjectSpecificMethods{
 	
 	public SiasDeleteUserCreationPage enterDeleteMobileNo() {
 		wait(4000);
-		enterValue(locateElement("xpath", props.getProperty("SiasDeleteUserCreationPage.DeleteMobileNo.Id")), props.getProperty("SiasDeleteUserCreationPage.MobileNo"));
+		enterValue(locateElement("xpath", props.getProperty("SiasDeleteUserCreationPage.DeleteMobileNo.XPath")), props.getProperty("SiasDeleteUserCreationPage.MobileNo"));
 		return this;
 		
 	}

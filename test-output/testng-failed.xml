@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< Updated upstream
       <class name="testcases.SiasManualReportMaintenanceTestCase">
         <methods>
           <include name="launchApplication"/>
@@ -10,6 +11,15 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- testcases.SiasManualReportMaintenanceTestCase -->
+=======
+      <class name="testcases.SiasWorkFlowTestCase">
+        <methods>
+          <include name="runWorkflow"/>
+          <include name="launchApplication"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.SiasWorkFlowTestCase -->
+>>>>>>> Stashed changes
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
